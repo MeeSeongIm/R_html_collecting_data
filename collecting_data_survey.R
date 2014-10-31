@@ -16,8 +16,8 @@ shinyUI(pageWithSidebar(
       			"The Wolf of Wall Street" = "6",
       			"Les Miserables" = "7"
 			),
+		),
 		dateInput("date", "Date:")
-		) 
 	),
 	mainPanel(
 		h3("Illustrating outputs"),
